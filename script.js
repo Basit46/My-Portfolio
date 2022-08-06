@@ -1,6 +1,6 @@
 const cancelBtn = document.querySelector("nav ul .cancel");
 const menuBtn = document.querySelector(".bars");
-const menu = document.querySelector("body nav ul");
+const menu = document.querySelector("body ");
 const links = document.querySelectorAll("nav ul li a");
 const about = document.querySelector(".about");
 const projects = document.querySelector(".projects");
