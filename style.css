@@ -653,7 +653,11 @@ nav > a:hover {
   }
   .projects > h1 {
     font-weight: 700;
+    font-size: 2.5rem;
+  }
+  .projects .project .details h1 {
     font-size: 2rem;
+    margin-bottom: 30px;
   }
   .projects .project .details > a {
     margin-right: 2px;
