@@ -571,9 +571,19 @@ nav > a:hover {
     position: relative;
     padding: 40px 10px 42px 10px;
   }
+  .home h1 {
+    font-size: 15vw;
+    margin-bottom: 20px;
+  }
+  .home h2 {
+    font-size: 15vw;
+  }
   .home .img-box {
     bottom: 200px;
     right: 15px;
+  }
+  .about > h1 {
+    text-align: left;
   }
   .about .word-divs {
     display: block;
@@ -583,7 +593,8 @@ nav > a:hover {
     flex: none;
     text-align: left;
     margin-left: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
   }
   .about .links {
     padding-top: 30px;
