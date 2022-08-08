@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;900&family=Space+Grotesk&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
 
 *,
 *::before,
@@ -46,7 +47,7 @@ body {
 .cover > h1 {
   position: absolute;
   left: 30px;
-  bottom: 30px;
+  top: 30px;
   color: #aaa;
   font-family: "Monoton", cursive;
   font-weight: 100;
@@ -86,7 +87,7 @@ body {
   right: 0;
   bottom: 0;
   opacity: 0;
-  animation: showing 3s forwards 3s;
+  animation: showing 3s forwards 2s;
 }
 @keyframes showing {
   to {
@@ -554,7 +555,7 @@ nav > a:hover {
 }
 
 /* mobile responsiveness */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
   html {
     width: 100vw;
   }
