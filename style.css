@@ -582,6 +582,10 @@ nav > a:hover {
     bottom: 200px;
     right: 15px;
   }
+  .about {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .about > h1 {
     text-align: left;
   }
