@@ -30,70 +30,6 @@ body {
   overflow-x: hidden;
 }
 
-.cover {
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  animation: out 2s forwards 1s;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-.cover > h1 {
-  position: absolute;
-  left: 30px;
-  top: 30px;
-  color: #aaa;
-  font-family: "Monoton", cursive;
-  font-weight: 100;
-}
-.cover h1 span {
-  position: relative;
-  letter-spacing: 15px;
-}
-.cover h1 span::after {
-  content: "";
-  background-color: black;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  animation: type 1s steps(3) infinite;
-}
-@keyframes type {
-  to {
-    left: 100%;
-  }
-}
-@keyframes out {
-  to {
-    opacity: 0;
-    display: none;
-  }
-}
-
-.main {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  animation: showing 3s forwards 2s;
-}
-@keyframes showing {
-  to {
-    opacity: 1;
-  }
-}
 nav {
   position: relative;
   display: flex;
@@ -213,7 +149,6 @@ nav > a:hover {
   font-size: 1.5rem;
   font-weight: 900;
   width: 100%;
-  transform: rotate(-2deg);
   overflow-x: hidden;
 }
 .slide-track {
@@ -566,6 +501,9 @@ nav > a:hover {
     background-color: #111;
     color: var(--color);
     overflow-x: hidden;
+  }
+  nav > a {
+    display: none;
   }
   .home {
     position: relative;
